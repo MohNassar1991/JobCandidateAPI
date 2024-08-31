@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobCandidateAPI", "JobCandidateAPI\JobCandidateAPI.csproj", "{D12279C7-187B-4C53-A92E-3DB6A7153F7B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobCandidateAPI.Domain", "JobCandidateAPI.Domain\JobCandidateAPI.Domain.csproj", "{C46BAC53-64BD-46D0-9202-B7F04A36902C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D12279C7-187B-4C53-A92E-3DB6A7153F7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D12279C7-187B-4C53-A92E-3DB6A7153F7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D12279C7-187B-4C53-A92E-3DB6A7153F7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C46BAC53-64BD-46D0-9202-B7F04A36902C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C46BAC53-64BD-46D0-9202-B7F04A36902C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C46BAC53-64BD-46D0-9202-B7F04A36902C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C46BAC53-64BD-46D0-9202-B7F04A36902C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
