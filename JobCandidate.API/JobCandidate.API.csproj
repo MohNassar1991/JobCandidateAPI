@@ -18,6 +18,7 @@
 	<ItemGroup>
 	  <ProjectReference Include="..\JobCandidate.Application\JobCandidate.Application.csproj" />
 	  <ProjectReference Include="..\JobCandidate.Domain\JobCandidate.Domain.csproj" />
+	  <ProjectReference Include="..\JobCandidate.Infrastructure\JobCandidate.Infrastructure.csproj" />
 	</ItemGroup>
 
 </Project>
