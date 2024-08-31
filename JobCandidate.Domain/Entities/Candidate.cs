@@ -1,4 +1,4 @@
-﻿namespace JobCandidateAPI.Models
+﻿namespace JobCandidate.Domain
 {
     public class Candidate
     {

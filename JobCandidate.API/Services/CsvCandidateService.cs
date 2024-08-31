@@ -1,9 +1,9 @@
 ﻿using CsvHelper;
-using JobCandidateAPI.Models;
+using JobCandidate.Domain;
 using Microsoft.Extensions.Caching.Memory;
 using System.Globalization;
 
-namespace JobCandidateAPI.Services
+namespace JobCandidate.API.Services
 {
     public class CsvCandidateService
     {

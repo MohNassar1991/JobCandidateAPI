@@ -1,7 +1,7 @@
 ﻿using FluentValidation;
-using JobCandidateAPI.Models;
+using JobCandidate.Domain;
 
-namespace JobCandidateAPI.Helper
+namespace JobCandidate.API.Helper
 {
     public class CandidateValidator : AbstractValidator<Candidate>
     {

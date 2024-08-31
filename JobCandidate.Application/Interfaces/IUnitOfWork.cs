@@ -1,6 +1,4 @@
-﻿using JobCandidateAPI.IRepositories;
-
-namespace JobCandidateAPI.Interfaces
+﻿namespace JobCandidate.Application.Interfaces
 {
     public interface IUnitOfWork
     {

@@ -1,5 +1,4 @@
-﻿using JobCandidateAPI.Interfaces;
-using JobCandidateAPI.IRepositories;
+﻿using JobCandidate.Application.Interfaces;
 
 namespace JobCandidateAPI.Repositories
 {

@@ -1,8 +1,7 @@
-﻿using JobCandidateAPI.IRepositories;
-using JobCandidateAPI.Models;
-using JobCandidateAPI.Services;
+﻿using JobCandidate.API.Services;
+using JobCandidate.Domain;
 
-namespace JobCandidateAPI.Repositories
+namespace JobCandidate.Application.Interfaces
 {
     public class CandidateRepository : ICandidateRepository
     {

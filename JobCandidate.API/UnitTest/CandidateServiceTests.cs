@@ -1,8 +1,8 @@
 ﻿using FluentValidation;
 using FluentValidation.Results;
-using JobCandidateAPI.Controllers;
-using JobCandidateAPI.Interfaces;
-using JobCandidateAPI.Models;
+using JobCandidate.API.Controllers;
+using JobCandidate.Application.Interfaces;
+using JobCandidate.Domain;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
 using Xunit;

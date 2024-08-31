@@ -1,6 +1,6 @@
-﻿using JobCandidateAPI.Models;
+﻿using JobCandidate.Domain;
 
-namespace JobCandidateAPI.IRepositories
+namespace JobCandidate.Application.Interfaces
 {
     public interface ICandidateRepository
     {

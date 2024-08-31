@@ -1,9 +1,9 @@
 ﻿using FluentValidation;
-using JobCandidateAPI.Interfaces;
-using JobCandidateAPI.Models;
+using JobCandidate.Application.Interfaces;
+using JobCandidate.Domain;
 using Microsoft.AspNetCore.Mvc;
 
-namespace JobCandidateAPI.Controllers
+namespace JobCandidate.API.Controllers
 {
     [ApiController]
     [Route("api/[controller]")]

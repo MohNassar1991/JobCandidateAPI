@@ -16,7 +16,8 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\JobCandidateAPI.Domain\JobCandidateAPI.Domain.csproj" />
+	  <ProjectReference Include="..\JobCandidate.Application\JobCandidate.Application.csproj" />
+	  <ProjectReference Include="..\JobCandidate.Domain\JobCandidate.Domain.csproj" />
 	</ItemGroup>
 
 </Project>
