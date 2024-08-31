@@ -3,7 +3,7 @@ using JobCandidate.Domain;
 using Microsoft.Extensions.Caching.Memory;
 using System.Globalization;
 
-namespace JobCandidate.API.Services
+namespace JobCandidate.Infrastructure
 {
     public class CsvCandidateService
     {

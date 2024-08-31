@@ -1,8 +1,8 @@
 using FluentValidation;
 using FluentValidation.AspNetCore;
 using JobCandidate.API.Helper;
-using JobCandidate.API.Services;
 using JobCandidate.Application.Interfaces;
+using JobCandidate.Infrastructure;
 using JobCandidateAPI.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);

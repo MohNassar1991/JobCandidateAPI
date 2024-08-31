@@ -1,5 +1,5 @@
-﻿using JobCandidate.API.Services;
-using JobCandidate.Domain;
+﻿using JobCandidate.Domain;
+using JobCandidate.Infrastructure;
 
 namespace JobCandidate.Application.Interfaces
 {
