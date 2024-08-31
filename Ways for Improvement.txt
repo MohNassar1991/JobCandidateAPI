@@ -1,0 +1,27 @@
+# 1. Database Integration
+- **Current Implementation**: The project uses a CSV file for data storage, which is suitable for small-scale operations.
+- **Improvement**: Transition to a relational database (e.g., SQL Server, PostgreSQL) to handle larger datasets more efficiently. Implementing Entity Framework Core would allow for better management of data, including migrations and complex querying capabilities.
+
+# 2. Error Handling
+- **Current Implementation**: Basic error handling is done within the controller.
+- **Improvement**: Implement global error handling middleware to manage exceptions across the application. This would include logging exceptions and returning standardized error responses to the API consumers.
+
+# 3. Caching Strategy
+- **Current Implementation**: In-memory caching is used to store candidate data temporarily.
+- **Improvement**: Extend the caching strategy to use a distributed cache like Redis. This would improve performance, particularly in a distributed environment with multiple instances of the application.
+
+# 4. Logging
+- **Current Implementation**: Logging is not explicitly implemented.
+- **Improvement**: Introduce structured logging using a logging framework like Serilog or NLog. This would enable detailed logging of application behavior, which is crucial for debugging and monitoring in production environments.
+
+# 5. API Versioning
+- **Current Implementation**: API versioning is not implemented.
+- **Improvement**: Implement API versioning to allow for backward-compatible changes as the API evolves. This would provide flexibility in maintaining different versions of the API for various consumers.
+
+# 6. Security Enhancements
+- **Current Implementation**: The project does not include authentication or authorization mechanisms.
+- **Improvement**: Implement authentication (e.g., JWT tokens) and authorization to secure API endpoints. Additionally, ensure secure handling of sensitive data, especially if transitioning to a database.
+
+# 7. Automated Testing
+- **Current Implementation**: Basic unit tests are implemented using xUnit and Moq.
+- **Improvement**: Expand test coverage to include integration tests and automated tests for more complex scenarios. Consider using tools like Selenium for end-to-end testing if a UI is added in the future.

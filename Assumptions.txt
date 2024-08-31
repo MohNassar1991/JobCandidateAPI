@@ -1,0 +1,20 @@
+# 1. CSV as Primary Data Store
+- **Assumption**: The project is currently designed to use a CSV file for storing candidate data. It was assumed that the storage mechanism might change to a database in the future, but for now, the CSV file serves as the primary data store.
+
+# 2. Simple Validation Rules
+- **Assumption**: Basic validation was implemented using FluentValidation, focusing on the required fields as specified in the task. Complex validation scenarios (e.g., cross-field validation) were not implemented as they were not deemed necessary for this scope.
+
+# 3. No UI Required
+- **Assumption**: The task explicitly stated that no user interface (UI) is required. Therefore, all efforts were focused on developing the REST API without considering front-end integration.
+
+# 4. Deployment Environment
+- **Assumption**: It was assumed that the application would be deployed in a development or testing environment, without specific production constraints. No particular deployment scripts or CI/CD pipelines were developed.
+
+# 5. Scope of Caching
+- **Assumption**: In-memory caching was implemented with the assumption that the dataset would be relatively small. If the application scales up significantly, a more robust caching solution would be necessary.
+
+# 6. API Consumer
+- **Assumption**: The API is designed for internal use, or for use by a known set of consumers. No specific API documentation (e.g., Swagger) was implemented as part of this task, under the assumption that such documentation might be added later.
+
+# 7. Default Settings
+- **Assumption**: Default settings were assumed for aspects like caching durations and file paths, under the assumption that these could be easily modified if needed.
